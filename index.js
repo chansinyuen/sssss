@@ -13,3 +13,5 @@ style.innerHTML = `@keyframes floating {
 }
 `
 document.head.appendChild(style);
+
+document.querySelector('div[style="width: 234.871px; height: 85.0124px; transform: translate(200.764px, 273.964px);"]').style.animation = "floating 3s ease-in-out infinite"
